@@ -3,8 +3,8 @@ type: Handoff
 kind: handoff
 branch: "main"
 by: "Biswajit Tripathy"
-at: "2026-09-29T14:52:37Z"
+at: "2026-09-29T22:09:06Z"
 how: auto
 ---
 
-Because cosmos is built that way: it commits the ledger by itself but never pushes. In the default mode, the ledger lives in your own branch: - **What it commits:** it commits `.cosmos/` to the branch you're on every 10 minutes and after each dream, touching only `.cosmos/` files. - **Where that happens:** `sync_background` in `cosmos/sync.py` commits and returns, with no push; `cosmos doctor` shows it as "push: never — .cosmos/ … goes out when you push it". - **Why:** pushing your branch is your decision. An automatic push would also send your unfinished work on that branch, and some projects forbid it; `retent`'s owner has a "never push" rule, for example. - **The exception:** only the opt …
+It works in `retent`. `cosmos atlas` wrote the page there (`.cosmos/ledger/atlas/atlas.html`, 131 KB), and I opened it through `retent`'s live console at http://127.0.0.1:7331/atlas.html. - **Documents:** all 8 are on the page: System context, Containers, Data flow, Deployment, Dependencies, API surface (203 endpoints), Inventory and Lanes. - **Diagrams:** all 8 draw, with no errors. - **The button:** **⤢ Open the Atlas page** shows on the console's Atlas page and opens it. I restarted your console so it runs the new code. - **In the screenshot:** the system-context diagram fitted into its frame, with the zoom and full-screen controls, and its sources listed beneath. - **Sidebar:** in my nar …
