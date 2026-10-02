@@ -5,7 +5,7 @@
   "author": {
     "name": "cosmos"
   },
-  "homepage": "https://biswajitbiswa.github.io/cosmos/",
+  "homepage": "https://github.com/ideatorlabs/cosmos",
   "repository": "https://github.com/ideatorlabs/cosmos",
   "license": "MIT",
   "keywords": [
@@ -62,7 +62,7 @@
       "Read",
       "Write"
     ],
-    "websiteURL": "https://biswajitbiswa.github.io/cosmos/",
+    "websiteURL": "https://github.com/ideatorlabs/cosmos",
     "defaultPrompt": [
       "What does the team already know about the files I'm about to change?",
       "flare: "
